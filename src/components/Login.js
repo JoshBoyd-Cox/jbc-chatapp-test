@@ -60,7 +60,7 @@ class Login extends React.Component {
     }
     return (
       <div className="App">
-        <h1>COMETCHAT</h1>
+        <h1>JOSHCHAT</h1>
         <p>
           Create an account through your CometChat dashboard or login with one
           of our test users, superhero1, superhero2, etc.
