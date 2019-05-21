@@ -61,9 +61,12 @@ class Login extends React.Component {
     return (
       <div className="App">
         <h1>JOSHCHAT</h1>
+        {/* <div className="loginImage">
+          <img src={"../../src/assets/bear.png"} alt="logo" />
+        </div> */}
         <p>
-          Create an account through your CometChat dashboard or login with one
-          of our test users, superhero1, superhero2, etc.
+          Create an account through your dashboard or login with one of our test
+          users.
         </p>
         <form className="form" onSubmit={this.onSubmit}>
           <input onChange={this.handleInputChange} type="text" />
